@@ -5,21 +5,22 @@ Tuto d'installation pour Créer une NAFABox.
 Les Scripts sont exclusivement dédiés à une architecture de type Ubuntu (compatible `apt` et `add-apt-repository`)
 
 Ces scripts sont compatibles avec le __Raspberry Pi 4B__ (Ubuntu Server), la __NanoPi-M4__ (Armbian), les __cartes compatibles Armbian__ et les systèmes classiques __amd64/x86_64__ (Xubuntu, Ubuntu Mate,...).   
+Les cartes compatibles avec ArmBian et Aarch64 sont aussi compatible mais seul la NanoPi-M4(v1) et la Rock-5B sont régulièrement testé.   
 Les scripts ont été testés avec Ubuntu Focal (20.04 LTS) et Ubuntu Jammy (22.04 LTS).  
 
 Il est recommandé d'utiliser **Ubuntu Jammy (22.04 LTS)** (ou Focal si Jammy n'est pas disponible).
 
-Il est nécessaire de disposer d'au moins 10Go d'espace de stockage (Disque Dur<eMMC<SSD) ou d'une Carte SD de 32Go au minimum ( index d'astrométrie non compris)  
+Il est nécessaire de disposer d'au moins 10Go d'espace de stockage (Disque Dur<eMMC<SSD) ou d'une Carte SD de 16/32Go au minimum (index d'astrométrie non compris)  
 
 **ATTENTION :** Vérifier que les mises à jour automatiques sont désactivées afin qu'elles n'interfèrent pas avec les scripts.
-[Tuto pour désactiver les mises à jour automatique](https://github.com/Patrick-81/NAFABox/blob/master/doc/update_ubuntu.md)
-[Liste des cartes SD conseillé et testé](https://github.com/Patrick-81/NAFABox/blob/master/doc/SD_card.md)
+[Tuto pour désactiver les mises à jour automatique](https://github.com/dragonlost/NAFABox/blob/master/doc/update_ubuntu.md)
+[Liste des cartes SD conseillé et testé](https://github.com/dragonlost/NAFABox/blob/master/doc/SD_card.md)
 
-#### Pour Raspberry Pi 4B (4/8Go) / NanoPi-M4 / Autre carte Armbian (armv8/aarch64/arm64) :     
-[TUTO pour SBC (Single Board Computer)](https://github.com/Patrick-81/NAFABox/blob/master/doc/SBC.md)    
+#### Pour Raspberry Pi 4B (4/8Go) et carte Armbian (armv8/aarch64/arm64) :     
+[TUTO pour SBC (Single Board Computer)](https://github.com/dragonlost/NAFABox/blob/master/doc/SBC.md)    
 
 #### Pour un ordinateur/carte amd64/x86_64 :    
-[TUTO pour Ordinateur fixe ou Portable](https://github.com/Patrick-81/NAFABox/blob/master/doc/amd64.md)     
+[TUTO pour Ordinateur fixe ou Portable](https://github.com/dragonlost/NAFABox/blob/master/doc/amd64.md)     
 
 
 __Lien utile :__
@@ -37,7 +38,7 @@ __Lien utile :__
 
 
 ### Liste des logiciels de la NAFABox :   
-https://github.com/Patrick-81/NAFABox/blob/master/doc/Software.md
+https://github.com/dragonlost/NAFABox/blob/master/doc/Software.md
 
 ## __IMPORTANT__ : NAFABox Bug et Debug connus :
-https://github.com/Patrick-81/NAFABox/blob/master/doc/BUG_and_DEBUG_list.md
+https://github.com/dragonlost/NAFABox/blob/master/doc/BUG_and_DEBUG_list.md
