@@ -9,7 +9,7 @@
 Le projet NAFABox consiste en un ensemble de script (bash) destinés à simplifier l'installation et l'utilisation des logiciels linux dédié à la pratique de l'astronomie amateur.   
                                                                                                         
 Ce projet permet aussi de mettre en place tout un environment dédié à la pratique de l'astrophotographie nomade.   
-Afin d'aider le plus grand nombre ce projet est compatible avec la carte __Raspberry Pi 4B__ ainsi que les __ordinateurs classiques__ (NUC, micro ordinateur, ordinateur portable, ...).
+Afin d'aider le plus grand nombre ce projet est compatible avec la carte __Raspberry Pi 4B__ ainsi que les __ordinateurs classiques__ (NUC, micro ordinateur, ordinateur portable, ...).   
 Les cartes suivantes sont aussi régulièrement testé avec succés (grâce à [ArmBian](https://www.armbian.com/): __NanoPi-M4 (v1)__ et __Rock 5B__ mais d'autre cartes compatible avec ArmBian sont surement compatible avec la NAFABox.
 
 La carte __Tinkerboard/S__ n'est malheureusement plus supporté ainsi que toutes cartes limitées à l'architecture arm32 (armhf) ainsi que les ordinateur basé sur l'architecture 32bit.
