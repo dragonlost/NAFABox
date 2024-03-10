@@ -23,5 +23,6 @@ Il faut attendre qu'ubuntu mette à jour la base de donnée pour avoir acces au 
 Les faut modifier les paramètres suivant :   
 - __Vérifier automatiquement les mises à jour :__ sur __Jamais__   
 - __Lorsqu'il y a des mises à jour de sécurité :__ sur __Afficher immédiatement__   
-- __Lorsqu'il y a d'autres mises à jour :__ sur __Afficher toutes les deux semaines__   
+- __Lorsqu'il y a d'autres mises à jour :__ sur __Afficher toutes les deux semaines__
+
 ![capture3](https://github.com/dragonlost/NAFABox/raw/master/doc/ubuntu_update_3.png)
