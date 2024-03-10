@@ -13,8 +13,8 @@ Il est nécessaire de disposer d'au moins 10Go d'espace de stockage ou d'une Car
 
 ### Pour les systèmes X86_64/Amd64 Ubuntu Linux system :
 
-__1-__ Installez la distribution via Etcher pour une installation USB.
-  
+__1-__ Installez la distribution via [Balena Etcher](https://github.com/balena-io/etcher/releases/tag/v1.18.11) pour une installation USB.   
+[Tuto Balena Etcher](https://github.com/dragonlost/NAFABox/doc/balena_etcher.md)
 ou **Xubuntu** Jammy (22.04 LTS): --> conseillé   
 https://cdimage.ubuntu.com/xubuntu/releases/22.04/release/xubuntu-22.04.4-desktop-amd64.iso   
 **Ubuntu Mate** Jammy (22.04 LTS)    
@@ -30,52 +30,60 @@ https://cdimage.ubuntu.com/ubuntu-budgie/releases/22.04/release/ubuntu-budgie-22
 ou **Armbian x64** Jammy (22.04 LTS):   
 https://www.armbian.com/uefi-x86/   
 
+__1bis-__ Il est aussi possible d'installer la NAFABox à partir d'ubuntu server afin d'installer la distribution avec le minimum de fonction pour avoir un système plus léger :   
+https://releases.ubuntu.com/22.04.4/ubuntu-22.04.4-live-server-amd64.iso    
+Vous trouverez des scripts pour l'installation de __XFCE (Xubuntu)__ et __KDE-Plasma (Kubuntu)__ dans le dossier utility.   
 
 Puis démarrer l'image et suivez la procédure d'installation standard.
 
 
 **ATTENTION** Il faut redémarer l'ordinateur avant toute manipulation     
 
-__2-__ Dans un terminal pour redéfinir votre clavier si besoin : `sudo dpkg-reconfigure keyboard-configuration` puis redémarez   
+__2- (optionel)__ Dans un terminal pour redéfinir votre clavier si besoin : `sudo dpkg-reconfigure keyboard-configuration` puis redémarez   
 
-__3-__ Télécharger :  https://github.com/dragonlost/NAFABox/archive/master.zip  
-ou  
-__3bis-__ Dans votre home `cd ~`:   
-`sudo apt install git`   
-`git clone https://github.com/dragonlost/NAFABox.git`
+__3-__ Dans votre home `cd ~`:   
+`sudo apt install git` --> pour installer git   
+`git clone https://github.com/dragonlost/NAFABox.git` --> pour importer les scripts NAFABox  
+ou   
+__3bis-__ Télécharger :  https://github.com/dragonlost/NAFABox/archive/master.zip  
 
-__4-__ Décompresser le fichier zip ( juste pour 3-)
+__4- (optionel)__ Décompresser le fichier zip ( juste pour 3bis-)
 
 __5-__ Ouvrez le dossier ainsi créé
 
 __6-__ lancer **Pre_Install.sh** dans un terminal (avec un clic droit dans le dossier)
 
 `$ ./Pre_Install.sh` 
-( Pour un clavier Francais AZERTY : `:!Pre°Instqll:sh` ) 
+( Pour un clavier Francais en AZERTY : `:!Pre°Instqll:sh` ) 
 
 Vous pouvez choisir d'installer la langue francaise si ce n'est pas déjà fait.
 
 __7-__ Une fois le script __Pre_Install__ fini, fermer le terminal puis redémarer.
 
 __Si vous avez modifié la langue,__ le systeme vas vous proposer de renomé les dossiers utilisateurs, accepter puis redémarer. A cause du mode de fonctionnement, après le redémarage, il faut suprimer l'ancien dossier correspondant au bureau ( supprimer le dossier __Desktop__ pour un passage d'anglais au français).    
-__Attention__ Ne pas supprimer le dossier __Desktop__ si c'est le seul présent.
+__Attention__ Ne pas supprimer le dossier __Desktop__ si c'est le seul présent. Puis redémarez.   
 
 ouvrir un nouveau terminal.
 
-Lancer une mise a jour :    
+__8-__ Lancer une mise a jour :    
 `$ sudo apt update`      
 `$ sudo apt upgrade -y`    
 redémarer
 
-ouvrir un nouveau terminal.    
-Lancer __Install.sh__
+__9-__ ouvrir un nouveau terminal.    
+Lancer __Install.sh__   
+`$ ./Install.sh`  
 
-`$ ./Install.sh` 
-
-__8-__ répondez aux questions lorsque vous y êtes invité, et entrez votre mot de passe quand c'est demandé, remplissez les menus si nécessaire.
-
-__9-__ Quand tout est fini vous devez redémarrer.
+__10-__ répondez aux questions lorsque vous y êtes invité, et entrez votre mot de passe quand c'est demandé, remplissez les menus si nécessaire.   
+Au début de cette étape vous aurez le choix entre 3 modes d'installation :   
+- Default : Installation sans interface graphique avec les outils NAFABox, Indi+Kstars et PHDGuiding2   
+- Server : Installation des outils ne necissitant pas d'interface graphique : les outils NAFABox et Indi   
+- Custom : Installation avec interface graphique vous donnant le choix sur les logiciels à installer.  
+  
+__11-__ Quand tout est fini vous devez redémarrer.
 
 
 ### Documentation pour le mappage persistant pour les péripheriques serial/usb (en anglais):   
-https://indilib.org/support/tutorials/157-persistent-serial-port-mapping.html
+https://indilib.org/support/tutorials/157-persistent-serial-port-mapping.html   
+### Documentation pour créer un HotSpot : 
+[Tuto HotSpot](https://github.com/dragonlost/NAFABox/doc/HotSpot_amd64.md)
