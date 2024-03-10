@@ -12,9 +12,9 @@ Il est recommandé d'utiliser **Ubuntu Jammy (22.04 LTS)** (ou Focal si Jammy n'
 
 Il est nécessaire de disposer d'au moins 10Go d'espace de stockage (Disque Dur<eMMC<SSD) ou d'une Carte SD de 16/32Go au minimum (index d'astrométrie non compris)  
 
-**ATTENTION :** Vérifier que les mises à jour automatiques sont désactivées afin qu'elles n'interfèrent pas avec les scripts.
-[Tuto pour désactiver les mises à jour automatique](https://github.com/dragonlost/NAFABox/blob/master/doc/update_ubuntu.md)
-[Liste des cartes SD conseillé et testé](https://github.com/dragonlost/NAFABox/blob/master/doc/SD_card.md)
+**ATTENTION :** Vérifier que les mises à jour automatiques sont désactivées afin qu'elles n'interfèrent pas avec les scripts.   
+[Tuto pour désactiver les mises à jour automatique](https://github.com/dragonlost/NAFABox/blob/master/doc/update_ubuntu.md)   
+[Liste des cartes SD conseillé et testé](https://github.com/dragonlost/NAFABox/blob/master/doc/SD_card.md)   
 
 #### Pour Raspberry Pi 4B (4/8Go) et carte Armbian (armv8/aarch64/arm64) :     
 [TUTO pour SBC (Single Board Computer)](https://github.com/dragonlost/NAFABox/blob/master/doc/SBC.md)    
