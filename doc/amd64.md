@@ -16,17 +16,17 @@ Il est nécessaire de disposer d'au moins 10Go d'espace de stockage ou d'une Car
 __1-__ Installez la distribution via Etcher pour une installation USB.
   
 ou **Xubuntu** Jammy (22.04 LTS): --> conseillé   
-http://cdimage.ubuntu.com/xubuntu/releases/22.04/release/xubuntu-22.04.4-desktop-amd64.iso   
+https://cdimage.ubuntu.com/xubuntu/releases/22.04/release/xubuntu-22.04.4-desktop-amd64.iso   
 **Ubuntu Mate** Jammy (22.04 LTS)    
-http://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04.4-desktop-amd64.iso    
+https://cdimage.ubuntu.com/ubuntu-mate/releases/22.04/release/ubuntu-mate-22.04.4-desktop-amd64.iso    
 ou **Kubuntu** Jammy (22.04 LTS):   
-http://cdimage.ubuntu.com/kubuntu/releases/22.04/release/kubuntu-22.04.4-desktop-amd64.iso    
+https://cdimage.ubuntu.com/kubuntu/releases/22.04/release/kubuntu-22.04.4-desktop-amd64.iso    
 ou **Lubuntu** Jammy (22.04 LTS) (Pas testé):   
-http://cdimage.ubuntu.com/lubuntu/releases/22.04/release/lubuntu-22.04.4-desktop-amd64.iso   
+https://cdimage.ubuntu.com/lubuntu/releases/22.04/release/lubuntu-22.04.4-desktop-amd64.iso   
 ou **Ubuntu** Jammy (22.04 LTS) (Pas testé):    
 https://ubuntu.univ-nantes.fr/ubuntu-cd/22.04/ubuntu-22.04.4-desktop-amd64.iso   
 ou **Ubuntu-Budgie** Jammy (22.04 LTS) (Pas testé):    
-http://cdimage.ubuntu.com/ubuntu-budgie/releases/22.04/release/ubuntu-budgie-22.04.4-desktop-amd64.iso    
+https://cdimage.ubuntu.com/ubuntu-budgie/releases/22.04/release/ubuntu-budgie-22.04.4-desktop-amd64.iso    
 
 
 Puis démarrer l'image et suivez la procédure d'installation standard.
