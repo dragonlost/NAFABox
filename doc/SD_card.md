@@ -1,4 +1,4 @@
-# micro SD card test (Classe UHS/UHS-I):
+# Carte MicroSD testé (Classe UHS/UHS-I):
 
 Classer par performance (moins à plus)
 ### Sandisk :
