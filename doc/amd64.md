@@ -27,6 +27,8 @@ ou **Ubuntu** Jammy (22.04 LTS) (Pas testé):
 https://ubuntu.univ-nantes.fr/ubuntu-cd/22.04/ubuntu-22.04.4-desktop-amd64.iso   
 ou **Ubuntu-Budgie** Jammy (22.04 LTS) (Pas testé):    
 https://cdimage.ubuntu.com/ubuntu-budgie/releases/22.04/release/ubuntu-budgie-22.04.4-desktop-amd64.iso    
+ou **Armbian x64** Jammy (22.04 LTS):   
+https://www.armbian.com/uefi-x86/   
 
 
 Puis démarrer l'image et suivez la procédure d'installation standard.
