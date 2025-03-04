@@ -46,9 +46,9 @@ if [ $? -eq 0 ]; then
     then
 	echo "suppression de l'ancien dossier mobindi"
 	rm -Rf /home/${USER}/bin/mobindi
-	git clone https://github.com/pludov/mobindi.git
+	git clone --branch MeridianFlip https://github.com/pludov/mobindi.git
     else
-        git clone https://github.com/pludov/mobindi.git
+        git clone --branch MeridianFlip https://github.com/pludov/mobindi.git
     fi
     cd mobindi
     # install and compil
