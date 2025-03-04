@@ -24,12 +24,15 @@ sudo apt-get install -y python3-setuptools
 sudo apt-get install -y python3-dev
 sudo apt-get install -y mlocate
 sudo apt-get install -y python3-bottle python3-psutil python3-requests
+sudo apt-get install -y pipx
 sudo chmod -R uga+rw /usr/local
 
 # installation des sources du serveur
 ######
 #pip install --upgrade pip
-pip3 install indiweb
+pipx install indiweb
+pipx ensurepath
+
 #pip install indiweb --user
 
 ######
@@ -43,7 +46,7 @@ sudo updatedb     # mettre à jour la base d'indexation
 
 dirindiweb=$(locate indi-web)  #récupérer le chemin du binaire indi-web
 
-echo -e '[Unit]\nDescription=INDI Web Manager\nAfter=multi-user.target\n\n[Service]\nType=idle\nUser='${MOI}'\nExecStart='${dirindiweb}' -v\nRestart=always\nRestartSec=5\n[Install]\nWantedBy=multi-user.target' >> /tmp/indiwebmanager.service
+echo -e '[Unit]\nDescription=INDI Web Manager\nAfter=multi-user.target\n\n[Service]\nType=idle\nUser='${MOI}'\nExecStart=/home/'${MOI}'/.local/bin/indi-web -v\nRestart=always\nRestartSec=5\n[Install]\nWantedBy=multi-user.target' >> /tmp/indiwebmanager.service
 #echo -e '[Unit]\nDescription=INDI Web Manager\nAfter=multi-user.target\n\n[Service]\nType=idle\nUser='$MOI'\nExecStart=/usr/local/bin/indi-web -v\nRestart=Always\nRestartSec=5\n[Install]\nWantedBy=multi-user.target' >> /tmp/indiwebmanager.service
 
 
