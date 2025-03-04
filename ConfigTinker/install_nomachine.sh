@@ -36,7 +36,7 @@ dirinstall=${nafabox_path}
 ######
 source ${dirinstall}/proctype.sh
 
-base_version="8.9"
+base_version="8.16"
 version=${base_version}".1"
 
 # test version
