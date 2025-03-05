@@ -21,9 +21,9 @@ Puis démarrer l'image et suivez la procédure d'installation standard (Attentio
 
 **ATTENTION** Il faut redémarer la carte avant toute manipulation (apres l'installation auto de armbian)   
 
-2/ Télécharger :  https://github.com/Patrick-81/NAFABox/archive/master.zip  
+2/ Télécharger :  https://github.com/dragonlost/NAFABox/archive/master.zip  
 ou  
-2bis/ Dans votre home : `git clone https://github.com/Patrick-81/NAFABox.git`
+2bis/ Dans votre home : `git clone https://github.com/dragonlost/NAFABox.git`
 
 3/ Décompresser le fichier zip ( juste pour 2/)
 
@@ -60,11 +60,11 @@ Lancer __Install.sh__
 
 
 ### Documentation pour créer un HotSpot sur Armbian :  
-https://github.com/Patrick-81/NAFABox/blob/master/doc/Install_Hotspot_Armbian.md   
+https://github.com/dragonlost/NAFABox/blob/master/doc/Install_Hotspot_Armbian.md   
 
 ### Documentation pour le mappage persistant pour les péripheriques serial/usb (en anglais):   
 https://indilib.org/support/tutorials/157-persistent-serial-port-mapping.html
 
 ### Documentation pour le changement de kernel sur Armbian :
-https://github.com/Patrick-81/NAFABox/blob/master/doc/Switch_kernel_armbian.md
+https://github.com/dragonlost/NAFABox/blob/master/doc/Switch_kernel_armbian.md
 

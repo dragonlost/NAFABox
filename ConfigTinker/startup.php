@@ -250,7 +250,7 @@
             <div class="card-body">
                 <h5 class="card-title">Documentation & Questions</h5>
                 <p class="card-text">Click the button below to access the Nafabox documentation. Enjoy.</p>
-                <a href="https://github.com/Patrick-81/NAFABox" target="_blank" class="btn btn-primary">Documentation</a>
+                <a href="https://github.com/dragonlost/NAFABox" target="_blank" class="btn btn-primary">Documentation</a>
                 <br/><br/>
 
                 <em style="font-size: 1em;">NAFABox</em>

@@ -11,15 +11,15 @@ Il est recommandé d'utiliser **Ubuntu Jammy (22.04 LTS)** (ou Focal si non disp
 Il est nécessaire de disposer d'au moins 10Go d'espace de stockage ou d'une Carte SD de 32Go au minimum (index d'astrométrie non compris)  
 
 **ATTENTION :** Vérifier que les mises à jour automatiques sont désactivées afin qu'elles n'interfèrent pas avec les scripts.
-[Tuto pour désactiver les mises à jour automatique](https://github.com/Patrick-81/NAFABox/blob/master/doc/update_ubuntu.md)
+[Tuto pour désactiver les mises à jour automatique](https://github.com/dragonlost/NAFABox/blob/master/doc/update_ubuntu.md)
 
 ### Etape par étape pour les cartes compatible Armbian (ou une autre carte (AARCH64/arm64/armv8) :
-Il existe un autre tuto pour obtenir un système Xubuntu plus léger avec moins de logiciel inutile : [Tuto](https://github.com/Patrick-81/NAFABox/blob/master/doc/tuto_minimal_armbian.md)
+Il existe un autre tuto pour obtenir un système Xubuntu plus léger avec moins de logiciel inutile : [Tuto](https://github.com/dragonlost/NAFABox/blob/master/doc/tuto_minimal_armbian.md)
 
 __1-__ Installer la distribution ARMBIAN (Xubuntu) via [Balena Etcher](https://github.com/balena-io/etcher/releases) ou [Raspberry Pi Imager](https://www.raspberrypi.com/software/).    
 
 ## Les Raspberry Pi Zero 2W/3B/3B+/3A+/4B/400/CM3/CM3+/CM4 :
-[Tuto RPI](https://github.com/Patrick-81/NAFABox/blob/master/doc/tuto_install_rpi4.md)
+[Tuto RPI](https://github.com/dragonlost/NAFABox/blob/master/doc/tuto_install_rpi4.md)
 
 ## Les autres SBC (via Armbian):
 __Pour Jammy :__   
@@ -35,7 +35,7 @@ __Pour Focal :__
 Puis démarrer l'image et suivez la procédure d'installation standard (__Attention :__ par défaut Armbian est en QWERTY)   
 Il va vous demander de créer un mot de passe super-utilisateur (root), ensuite votre nom d'utilisateur et son mot de passe (de préférence mettre le même que le root) et enfin redémarrer.
 À partir de la version Jammy, il faudra choisir `bash` vous demandera aussi la langue et la time zone désirée (mais pas le clavier)   
-Pour freezer la version d'Armbian : [tuto](https://github.com/Patrick-81/NAFABox/blob/master/doc/Switch_kernel_armbain.md#optionnel-mais-conseill%C3%A9-surtout-en-version-next-et-nightly)
+Pour freezer la version d'Armbian : [tuto](https://github.com/dragonlost/NAFABox/blob/master/doc/Switch_kernel_armbain.md#optionnel-mais-conseill%C3%A9-surtout-en-version-next-et-nightly)
 
 **ATTENTION**, il faut redémarrer la carte avant toute manipulation     
 
@@ -43,9 +43,9 @@ __2-__ Dans un terminal pour redéfinir votre clavier : `sudo dpkg-reconfigure k
 
 __3bis-__ Dans votre home `cd ~`:   
 `sudo apt install git`   
-`git clone https://github.com/Patrick-81/NAFABox.git`   
+`git clone https://github.com/dragonlost/NAFABox.git`   
 ou   
-__3bis-__ Télécharger :  https://github.com/Patrick-81/NAFABox/archive/master.zip   
+__3bis-__ Télécharger :  https://github.com/dragonlost/NAFABox/archive/master.zip   
 
 __4-__ Décompresser le fichier zip (juste pour 2/)
 
@@ -86,5 +86,5 @@ __9-__ répondez aux questions lorsque vous y êtes invité et entrez votre mot 
 __10-__ Quand tout est fini, vous devez redémarrer.
 
 __11-__ Installation complémentaire (Acceleration graphique, complément des langues, point d'accès wifi, resolution d'écran, RTC,...) :   
-[Tuto additionnel pour les cartes Armbian](https://github.com/Patrick-81/NAFABox/blob/master/doc/Tuto_armbian.md)   
-[Tuto additionnel pour les cartes RPI](https://github.com/Patrick-81/NAFABox/blob/master/doc/Tuto_RPI.md)
+[Tuto additionnel pour les cartes Armbian](https://github.com/dragonlost/NAFABox/blob/master/doc/Tuto_armbian.md)   
+[Tuto additionnel pour les cartes RPI](https://github.com/dragonlost/NAFABox/blob/master/doc/Tuto_RPI.md)

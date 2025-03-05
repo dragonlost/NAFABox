@@ -30,7 +30,7 @@ __Attention :__ Les premiers modèles de Raspberry pi (très anciens) devront re
 
 Si tout à bien fonctionné et que le câblage est bon, vous devriez voir ceci en faisant un **sudo i2cdetect -y 1** :
 
-![Resultat](https://github.com/Patrick-81/NAFABox/raw/master/doc/rtc_rpi.png)
+![Resultat](https://github.com/dragonlost/NAFABox/raw/master/doc/rtc_rpi.png)
 
 ---
 ### Utilisation du module

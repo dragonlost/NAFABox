@@ -26,7 +26,7 @@ Une fois cela effectué, vous pourrez vérifier que tout fonctionne en tapant la
 
 Si tout a bien fonctionné et que le câblage est bon, vous devriez voir ceci en faisant un **sudo i2cdetect -y 1** :
 
-![Resultat](https://github.com/Patrick-81/NAFABox/raw/master/doc/rtc_rpi.png)
+![Resultat](https://github.com/dragonlost/NAFABox/raw/master/doc/rtc_rpi.png)
 
 L'adresse `0x68` est celle du RTC. 
 

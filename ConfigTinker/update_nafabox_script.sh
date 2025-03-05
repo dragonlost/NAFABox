@@ -50,7 +50,7 @@ then
 		cp -r ${nafa_path} ${back_path}/nafabox_temp
 		rm -Rf ${nafa_path}
 		cd ${back_path}
-		git clone https://github.com/Patrick-81/NAFABox.git
+		git clone https://github.com/dragonlost/NAFABox.git
 		cd NAFABox
 		git checkout master
 		

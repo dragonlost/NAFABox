@@ -32,9 +32,9 @@ http://cdimage.ubuntu.com/ubuntu-budgie/releases/20.04/release/ubuntu-budgie-20.
 Puis démarrer l'image et suivez la procédure d'installation standard.
 
 
-2/ Télécharger :  https://github.com/Patrick-81/NAFABox/archive/master.zip  
+2/ Télécharger :  https://github.com/dragonlost/NAFABox/archive/master.zip  
 ou  
-2bis/ Dans votre home : `git clone https://github.com/Patrick-81/NAFABox.git`
+2bis/ Dans votre home : `git clone https://github.com/dragonlost/NAFABox.git`
 
 3/ Décompresser le fichier zip ( juste pour 2/)
 

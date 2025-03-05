@@ -1,7 +1,7 @@
 # NAFABox (Nomad Astronomy For All)
 
 <p align="center">
-  <img src="https://github.com/Patrick-81/NAFABox/blob/master/doc/logo_256.png"?raw=true" alt="NAFABox Logo"/>
+  <img src="https://github.com/dragonlost/NAFABox/blob/master/doc/logo_256.png"?raw=true" alt="NAFABox Logo"/>
 </p>
 
 # Current version : **4.0.0**

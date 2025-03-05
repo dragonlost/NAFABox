@@ -27,11 +27,11 @@ Boot on your mage et follow the standard install procedure (warning: default key
 
 **Warning** Reboot the card before continuing
 
-2/ Download :  https://github.com/Patrick-81/NAFABox/archive/master.zip  
+2/ Download :  https://github.com/dragonlost/NAFABox/archive/master.zip  
 or  
 2bis/ In your home `cd ~`:   
 `sudo apt install git`   
-`git clone https://github.com/Patrick-81/NAFABox.git`
+`git clone https://github.com/dragonlost/NAFABox.git`
 
 3/ Unzip the file ( only for point 2/)
 
@@ -58,19 +58,19 @@ You can choose french keyboard if not yet done.
 http://nafabox.linux-astro.fr/#Nafabox_1
 
 ### Documentation to create a HotSpot on Tinkerboard/S :  
-https://github.com/Patrick-81/NAFABox/blob/master/doc/Install_Hotspot_Armbian.md   
+https://github.com/dragonlost/NAFABox/blob/master/doc/Install_Hotspot_Armbian.md   
 
 ### Documentation to install RTC on Tinkerboard/S :   
-https://github.com/Patrick-81/NAFABox/blob/master/doc/Tuto_rtc_tinkerboard.md
+https://github.com/dragonlost/NAFABox/blob/master/doc/Tuto_rtc_tinkerboard.md
 
 ### Documentation to map serial/USB peripherals (english):   
 https://indilib.org/support/tutorials/157-persistent-serial-port-mapping.html
 
 ### Documentation to change teh kernel on Armbian :
-https://github.com/Patrick-81/NAFABox/blob/master/doc/Switch_kernel_armbian.md
+https://github.com/dragonlost/NAFABox/blob/master/doc/Switch_kernel_armbian.md
 
 ### Documentation to activate graphic acceleration :
-https://github.com/Patrick-81/NAFABox/blob/master/doc/tuto_acceleration_graphique_tinker.md
+https://github.com/dragonlost/NAFABox/blob/master/doc/tuto_acceleration_graphique_tinker.md
 
 ### To get a full functionnal NAFABox image :   
 https://share.obspm.fr/index.php/s/WowXMAZkHPd3K9j

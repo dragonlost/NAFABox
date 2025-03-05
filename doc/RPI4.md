@@ -16,11 +16,11 @@ __1-__ Installer la distribution Ubuntu Mate Focal (20.04 LTS) via Raspberry Pi 
 
 https://releases.ubuntu-mate.org/focal/arm64/ubuntu-mate-20.04.1-desktop-arm64+raspi.img.xz
 
-Si vous avez besoin d'utiliser UBUNTU Server (tuto) : https://github.com/Patrick-81/NAFABox/blob/master/doc/tuto_install_rpi4.md
+Si vous avez besoin d'utiliser UBUNTU Server (tuto) : https://github.com/dragonlost/NAFABox/blob/master/doc/tuto_install_rpi4.md
 
-__2-__ Télécharger :  https://github.com/Patrick-81/NAFABox/archive/master.zip  
+__2-__ Télécharger :  https://github.com/dragonlost/NAFABox/archive/master.zip  
 ou  
-__2bis-__ Dans votre home : `git clone https://github.com/Patrick-81/NAFABox.git`
+__2bis-__ Dans votre home : `git clone https://github.com/dragonlost/NAFABox.git`
 
 __3-__ Décompresser le fichier zip ( juste pour 2/)
 
@@ -61,14 +61,14 @@ http://nafabox.linux-astro.fr/#nafabox
 
 
 ### Documentation pour installer Un RTC sur Raspberry Pi 3b/3b+/4b :   
-https://github.com/Patrick-81/NAFABox/blob/master/doc/Tuto_rtc_raspberry.md
+https://github.com/dragonlost/NAFABox/blob/master/doc/Tuto_rtc_raspberry.md
 
 ### Documentation pour le mappage persistant pour les péripheriques serial/usb (en anglais):   
 https://indilib.org/support/tutorials/157-persistent-serial-port-mapping.html
 
 ### Tuto résolution décran pour Raspberry PI 3b/3b+/4b :
-https://github.com/Patrick-81/NAFABox/blob/master/doc/Resolution_rpi.md
-https://github.com/Patrick-81/NAFABox/blob/master/doc/Amelioration_affichage_rpi.md
+https://github.com/dragonlost/NAFABox/blob/master/doc/Resolution_rpi.md
+https://github.com/dragonlost/NAFABox/blob/master/doc/Amelioration_affichage_rpi.md
 
 
 ### pour récupérer une image toute faite de la NAFABox :   
