@@ -24,9 +24,9 @@ cd ${dirinstall}
 sudo apt-get -y install python3-pip python3-setuptools 
 sudo apt-get -y install pipx
 # installer browsepy
-pip3 install scandir
-pip3 install backports.shutil_get_terminal_size
-pipx install git+https://github.com/dragonlost/browsepy.git
+# pip3 install scandir
+# pip3 install backports.shutil_get_terminal_size
+pipx install scandir backports.shutil_get_terminal_size git+https://github.com/dragonlost/browsepy.git
 pipx ensurepath
 # Lancer le serveur au demarrage
 # placer la commande sous .config/autostart
