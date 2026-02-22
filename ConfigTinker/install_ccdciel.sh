@@ -58,8 +58,8 @@ then
   software="indistarter"
 
   #need update
-  version="2.4.0"
-  subversion="192"
+  version="2.5.2"
+  subversion="234"
 
   file="$software""_$version""-$subversion""$proc.deb"
   wget https://sourceforge.net/projects/$software/files/$software-$version/$file -P /tmp
@@ -70,8 +70,8 @@ then
   software="eqmodgui"
 
   #need update
-  version="$software""_""1.7.1"
-  subversion="149"
+  version="$software""_""1.8.0"
+  subversion="163"
 
   file="$version""-$subversion""$proc.deb"
   wget https://sourceforge.net/projects/$software/files/$version/$file -P /tmp
