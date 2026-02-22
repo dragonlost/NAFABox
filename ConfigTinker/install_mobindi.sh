@@ -23,7 +23,7 @@ echo "================================================="
 ######
 # Installation des pré-requis
 #######
-sudo apt-get -y install git cmake zlib1g-dev libcurl4-openssl-dev libgsl-dev libcfitsio-dev libjpeg-dev libpng-dev libcgicc-dev daemontools nginx
+sudo apt-get -y install git cmake zlib1g-dev libcurl4-openssl-dev libgsl-dev libraw-dev libcfitsio-dev libjpeg-dev libpng-dev libcgicc-dev daemontools nginx
 
 # check install indi :
 dpkg -s indi-full &> /dev/null
@@ -35,7 +35,7 @@ if [ $? -eq 0 ]; then
     # install last nodejs
     curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
     sudo apt-get install -y nodejs
-    sudo apt-get install -y npm
+    npm install
 
     #######
     # clonage mobindi dans ~/bin
