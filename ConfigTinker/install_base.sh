@@ -76,13 +76,11 @@ else
     --title="Select Installation Options :" \
     --text="Install Program :" \
     --field=":LBL" \
-    --field="Plugin IP Indicator:CHK" \
     --field="Change hostname to NAFABox ?:CHK" \
     "" "${st[0]}" "${st[1]}"`
     then
 	# recuperation des valeurs
-	ip_indicator=$(echo "$chose" | cut -d "|" -f2)
-	host=$(echo "$chose" | cut -d "|" -f3)
+	host=$(echo "$chose" | cut -d "|" -f2)
 
     else
 	echo "cancel"
@@ -96,10 +94,10 @@ fi
 
 
 # install ip indicator
-if [[ ${ip_indicator} == "TRUE" ]]
-then
-	${dirinstall}/install_ip_indicator.sh
-fi
+#if [[ ${ip_indicator} == "TRUE" ]]
+#then
+#	${dirinstall}/install_ip_indicator.sh
+#fi
 
 # Installation du fond d'écran
 echo "================================================="
