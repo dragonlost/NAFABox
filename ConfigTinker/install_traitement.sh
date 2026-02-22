@@ -142,13 +142,17 @@ then
     fi
 
     sudo apt-get install -y ffmpeg libavcodec-dev libavformat-dev libavutil-dev gcc g++ git cmake make
-    sudo apt-get install -y libgtkmm-3.0-dev libglibmm-2.4-dev libwxgtk-webview3.0-gtk3-dev libwxgtk3.0-gtk3-dev libwxgtk-media3.0-gtk3-dev libwxgtk-media3.0-gtk3-dev
+    
     
     cd ~/bin
     git clone https://github.com/GreatAttractor/libskry.git
     cd ./libskry
     make
 
+	
+    sudo apt-get install -y libgtkmm-3.0-dev # libwxgtk-webview3.0-gtk3-dev libwxgtk3.0-gtk3-dev libwxgtk-media3.0-gtk3-dev
+
+	
     cd ~/bin
     git clone https://github.com/GreatAttractor/stackistry.git
     cd ./stackistry
@@ -160,25 +164,10 @@ fi
 
 if [[ ${impg} == "TRUE" ]]
 then
-    sudo apt-get install -y ffmpeg libavcodec-dev libavformat-dev libavutil-dev gcc g++ cmake make libfreeimage-dev libboost-all-dev
-    sudo apt-get install -y libgtkmm-3.0-dev 
-    sudo apt-get install -y libwxgtk3.0-dev
-    sudo apt-get install -y libwxgtk-webview3.0-gtk3-dev libwxgtk3.0-gtk3-dev libwxgtk-media3.0-gtk3-dev libwxgtk-media3.0-gtk3-dev
-    sudo apt-get install -y libglibmm-2.4-dev
-    sudo apt-get install -y libglew-dev
 
-    #test si le dossiers existe, si oui suppression
-    if [[ -d "/home/${USER}/bin/imppg" ]]
-    then
-      echo "suppression de l'ancien dossier imppg"
-      rm -Rf /home/${USER}/bin/imppg
-    fi
-    #sudo ln -s /usr/bin/wx-config-3.0 /usr/bin/wx-config
-    cd ~/bin
-    git clone https://github.com/GreatAttractor/imppg.git
-    cd ./imppg
-    cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release
-    make
-    sudo cmake -P cmake_install.cmake
+    cd /tmp
+    wget https://github.com/GreatAttractor/imppg/releases/download/v2.1.0/imppg-2.1.0-Ubuntu_24.04.deb
+	sudo apt-get install -y ./imppg-2.1.0-Ubuntu_24.04.deb
+
 fi
 
