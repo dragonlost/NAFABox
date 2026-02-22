@@ -22,7 +22,7 @@ figlet -k Install SkyChart
 echo "================================================="
 echo "================================================="
 
-skychart_version="stable" #or beta
+skychart_version="beta" #or beta
 install_method="sourceforge" #of ppa
 
 ######
@@ -85,9 +85,9 @@ then
     # install skychart via sourceforge beta
 
     #need update
-    date="2023-09-18"
+    date="2026-02-16"
     version="4.3"
-    subversion="4630"
+    subversion="5027"
 
     file="$software""_""$version""-$subversion""$proc.deb"
     wget https://sourceforge.net/projects/$software/files/0-beta/$date/$file -P /tmp
