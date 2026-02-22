@@ -40,7 +40,6 @@ then
   ######
   # install via "PPA" outdate
   ######
-
   sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 8B8B57C1AA716FC2
   sudo sh -c "echo deb http://www.ap-i.net/apt unstable main > /etc/apt/sources.list.d/skychart.list"
   sudo apt-get update
@@ -83,8 +82,8 @@ then
   software="ccdciel"
 
   #need update
-  version="$software""_""0.9.86"
-  subversion="3243"
+  version="$software""_""0.9.93"
+  subversion="3961"
 
   file="$version""-$subversion""$proc.deb"
   wget https://sourceforge.net/projects/$software/files/$version/$file -P /tmp/
