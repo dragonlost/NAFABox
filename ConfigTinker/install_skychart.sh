@@ -23,7 +23,7 @@ echo "================================================="
 echo "================================================="
 
 skychart_version="beta" #or beta
-install_method="sourceforge" #of ppa
+install_method="ppa" #of ppa
 
 ######
 # Installation des pré-requis
@@ -44,19 +44,20 @@ sudo apt-get -y remove skychart
 if [[ ${install_method} == "ppa" ]]
 then
   # install via PPA
-  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 8B8B57C1AA716FC2
+  #sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 8B8B57C1AA716FC2
 
-  if [[ ${skychart_version} == "stable" ]]
-  then
-    sudo rm /etc/apt/sources.list.d/skychart.list
-    sudo apt-get update
-    sudo sh -c "echo deb http://www.ap-i.net/apt stable main > /etc/apt/sources.list.d/skychart.list"
-  elif [[ ${skychart_version} == "beta" ]]
-  then
-    sudo rm /etc/apt/sources.list.d/skychart.list
-    sudo apt-get update
-    sudo sh -c "echo deb http://www.ap-i.net/apt unstable main > /etc/apt/sources.list.d/skychart.list"
-  fi
+  #if [[ ${skychart_version} == "stable" ]]
+  #then
+#    sudo rm /etc/apt/sources.list.d/skychart.list
+#    sudo apt-get update
+#    sudo sh -c "echo deb http://www.ap-i.net/apt stable main > /etc/apt/sources.list.d/skychart.list"
+  #elif [[ ${skychart_version} == "beta" ]]
+  #then
+#    sudo rm /etc/apt/sources.list.d/skychart.list
+#    sudo apt-get update
+#    sudo sh -c "echo deb http://www.ap-i.net/apt unstable main > /etc/apt/sources.list.d/skychart.list"
+  #fi
+  bash <(wget -qO- https://raw.githubusercontent.com/pchev/skychart/master/setup_skychart_deb.sh) 
   sudo apt-get update
 
   sudo apt-get -y install skychart
