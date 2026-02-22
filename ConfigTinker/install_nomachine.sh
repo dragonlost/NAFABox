@@ -36,8 +36,8 @@ dirinstall=${nafabox_path}
 ######
 source ${dirinstall}/proctype.sh
 
-base_version="8.16"
-version=${base_version}".1"
+base_version="9.3"
+version=${base_version}".7"
 
 # test version
 if [[ ${proc} == "_amd64" ]]
