@@ -12,6 +12,7 @@
 sudo apt-get update
 sudo apt-get -y install appmenu-gtk2-module appmenu-gtk3-module
 sudo apt-get -y install figlet dialog yad lshw
+sudo apt-get -y install locate
 
 chmod +x ./Install.sh
 cd ./ConfigTinker
