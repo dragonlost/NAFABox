@@ -40,8 +40,7 @@ then
   ######
   # install via "PPA" outdate
   ######
-  sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 8B8B57C1AA716FC2
-  sudo sh -c "echo deb http://www.ap-i.net/apt unstable main > /etc/apt/sources.list.d/skychart.list"
+  bash <(wget -qO- https://raw.githubusercontent.com/pchev/skychart/master/setup_skychart_deb.sh) 
   sudo apt-get update
 
   sudo apt-get -y install ccdciel indistarter eqmodgui
