@@ -34,7 +34,7 @@ sudo apt-get -y install gparted
 sudo apt-get -y install bluetooth bluez bluez-tools pulseaudio-module-bluetooth blueman
 # for hotspot
 # sudo apt-get -y install hostapd
-sudo apt-get -y install dhcpcd5 dhcpcd-gtk
+# sudo apt-get -y install dhcpcd5 dhcpcd-gtk
 
 #sudo apt-get --reinstall -o Dpkg::Options::="--force-confnew" -y --no-install-recommends install hostapd
 #sudo apt-get --reinstall -o Dpkg::Options::="--force-confnew" -y --no-install-recommends install hostapd-realtek
